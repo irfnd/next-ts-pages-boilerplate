@@ -10,7 +10,7 @@ export default function Home() {
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
 			<main>
-				<h1>Welcome to Next + TypeScript (pages dir)</h1>
+				<h1>Welcome to Next + TypeScript Boilerplate (pages dir)</h1>
 				<p>A boilerplate/starter project for quickly building web using Next with TypeScript</p>
 			</main>
 		</>
