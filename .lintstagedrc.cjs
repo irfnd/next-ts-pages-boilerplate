@@ -6,5 +6,5 @@ const getFiles = (filenames) => {
 
 module.exports = {
 	"**/*.{ts,tsx}": [getFiles],
-	"**/*.{js,ts,tsx,json,md}": "prettier --write",
+	"**/*.{js,cjs,ts,tsx,json,md}": "prettier --write",
 };

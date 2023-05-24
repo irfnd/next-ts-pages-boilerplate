@@ -5,13 +5,23 @@
 	"author": "irfnd <irfandiabimanyu@gmail.com>",
 	"private": false,
 	"license": "MIT",
+	"keywords": [
+		"typescript",
+		"react",
+		"nextjs",
+		"eslint",
+		"prettier",
+		"husky",
+		"lint-staged",
+		"boilerplate"
+	],
 	"scripts": {
 		"prepare": "husky install",
 		"dev": "next dev",
 		"build": "next build",
 		"start": "next start",
 		"lint": "next lint",
-		"format": "prettier --write \"./**/*.{cjs,ts,tsx,json,md}\""
+		"format": "prettier --write \"**/*.{js,cjs,ts,tsx,json,md}\""
 	},
 	"dependencies": {
 		"next": "13.4.3",
